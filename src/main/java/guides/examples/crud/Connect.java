@@ -18,4 +18,8 @@ public class Connect {
 
     }
     //End Connect
+    
+    public static void closeConnection(MongoClient client) {
+        client.close();
+    }
 }
