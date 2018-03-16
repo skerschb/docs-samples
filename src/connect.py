@@ -1,4 +1,4 @@
-//Start Connect
+#Start Connect
 from pymongo import MongoClient
 
 class Connect():
@@ -7,4 +7,4 @@ class Connect():
         connection_string = "<connection-string>"
         client = MongoClient(connection_string)
         return client
-//End Connect
+#End Connect
