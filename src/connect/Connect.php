@@ -10,7 +10,7 @@ class Connect {
 
     public function setUpConnection()
     {
-       $manager = new MongoDB\Driver\Manager("mongodb://testuser:password@localhost:27017/test?authSource=admin");
+       $manager = new MongoDB\Driver\Manager("<URISTRING>");
        echo 'manager setup';
     }
 } 
