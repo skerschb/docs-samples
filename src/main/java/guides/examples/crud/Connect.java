@@ -10,7 +10,7 @@ public class Connect {
 
         // uri format:
         // mongodb://[user]:[password]@[host]:[port]/[dbname]?authSource=[authDB]
-        final String uriString = "mongodb://testuser:password@localhost:27017/test?authSourc e=admin";
+        final String uriString = "<URISTRING>";
 
         MongoClientURI uri = new MongoClientURI(uriString);
         // note that java connections are not initialized unless an operation
