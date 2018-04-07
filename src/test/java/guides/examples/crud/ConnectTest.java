@@ -10,7 +10,7 @@ public class ConnectTest {
     @Test
     void testConnection() {
         //Start Call Example 
-        MongoClient client = Connect.getConnection();
+        MongoClient mongoClient = Connect.getConnection();
         assertTrue(client!=null);
         Connect.closeConnection(client);
         //End Call Example
