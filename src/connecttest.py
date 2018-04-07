@@ -4,6 +4,6 @@ from pymongo import MongoClient
 
 client = Connect()
 connection = client.get_connection()
+#End Caller Connect
 assert connection is  not None
 print connection
-#End Caller Connect
