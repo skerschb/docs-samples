@@ -9,11 +9,12 @@ public class ConnectTest {
     
     @Test
     void testConnection() {
+        //Start Call Example 
         MongoClient client = Connect.getConnection();
         assertTrue(client!=null);
         Connect.closeConnection(client);
         System.out.println("*******RAN TEST******");
-        
+        //End Call Example
     }
 
 }
