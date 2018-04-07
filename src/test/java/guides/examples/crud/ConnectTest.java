@@ -13,7 +13,6 @@ public class ConnectTest {
         MongoClient client = Connect.getConnection();
         assertTrue(client!=null);
         Connect.closeConnection(client);
-        System.out.println("*******RAN TEST******");
         //End Call Example
     }
 
