@@ -8,6 +8,7 @@ public class Connect {
     // Start Connect
     public static MongoClient getConnection() {
 
+        // here is the uri string!
         final String uriString = "<URISTRING>";
 
         MongoClientURI uri = new MongoClientURI(uriString);
