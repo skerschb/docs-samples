@@ -12,9 +12,9 @@ public class ConnectTest {
     void testConnection() {
         //Start Call Example 
         MongoClient mongoClient = Connect.getConnection();
+        //End Call Example 
         assertTrue(mongoClient!=null);
         Connect.closeConnection(mongoClient);
-        //End Call Example
     }
    
     @Test
