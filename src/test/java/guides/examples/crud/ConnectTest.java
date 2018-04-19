@@ -12,8 +12,8 @@ public class ConnectTest {
     void testConnection() {
         //Start Call Example 
         MongoClient mongoClient = Connect.getConnection();
-        assertTrue(client!=null);
-        Connect.closeConnection(client);
+        assertTrue(mongoClient!=null);
+        Connect.closeConnection(mongoClient);
         //End Call Example
     }
    
